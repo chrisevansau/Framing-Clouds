@@ -76,7 +76,7 @@ ul, ol { list-style:none; }
 
 /* Layout ================================================================================ */
 .wrapper { }
-.page { text-align:left; background:#FFF; margin:0 auto; padding:0 20px 20px;}
+.page { text-align:left; background:#ebeae2; margin:0 auto; padding:0 20px 20px;}
 .page-print { background:#fff; padding:20px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { padding:20px; }
