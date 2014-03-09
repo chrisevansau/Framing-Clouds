@@ -1179,7 +1179,7 @@ button.btn-continue span span, button.btn-update span span { }
 
 
 /* Footer ================================================================================ */
-.footer-container { font-size:11px; margin-top:30px; background:#fff; }
+.footer-container { font-size:11px; margin-top:30px; background:#000; }
 .f-detail .container { margin:0 auto; }
 .footer-s { background: url(../images/footer_s.png) center 0 no-repeat; height:111px; margin-bottom:20px; text-shadow:1px 1px #fff; }
 .footer-c { width:1000px; margin:0 auto; padding-top:36px; }
