@@ -372,7 +372,7 @@ tr.summary-details-excluded { font-style:italic; }
 .cartView .btn-remove, .cartView .btn-edit { float: right; }
 /* Header ================================================================================ */
 .logo { }
-.shopLinks { background:#f7f7f7;  }
+.shopLinks { background:#f7f7f7;  background-image:url('/skin/frontend/default/madame-modern/images/topbar.png');height: 106px;}
 .links { font-size:10px; text-transform:uppercase; float:right; margin:12px 10px 9px 0; font-family:Arial, Helvetica, sans-serif; }
 .links a { color: #7e7e7e; text-decoration:none; padding:0 8px 0 7px; no-repeat;
 border-right:1px solid #d7d7d7; }
@@ -1189,7 +1189,7 @@ button.btn-continue span span, button.btn-update span span { }
 .shipping-f { float:left; text-align:left; margin:0 0 0 36px; }
 .shipping-f .number { font-size:20px; color:#727272; display:block; background:url("../images/sprites.png") no-repeat -202px -130px; padding-left:56px; }
 .shipping-f .days { font-size:12px; color:#FF8AA7; display:block; }
-.f-detail { padding-bottom:14px; border-bottom:1px solid #dadada; }
+.f-detail { padding-bottom:14px; border-bottom:0px solid #dadada; }
 .twitter-list { float:left; width:252px; margin-right:50px; }
 #twitter_update_list a { background:none; display:inline; padding:0px; display:block; }
 #twitter_update_list span a { display:inline; font-weight:bold; }
@@ -1198,8 +1198,8 @@ button.btn-continue span span, button.btn-update span span { }
 .footer .line { border-bottom:1px dotted #292929; }
 .footer .blocks { }
 .footer .blocks.last, .f-updates .block1.last { border:0px; padding-bottom:0px; }
-.footer h2 { background:#f7f7f7; font-size:14px; border-bottom:1px solid #dadada; padding:8px 10px; color:#808080; text-transform:uppercase; font-weight:700; margin-bottom:6px;}
-.footer li a { display:block; padding:2px 0 2px 13px; background: url("../images/footer-links.png") no-repeat 0 6px; }
+.footer h2 { background:#000; font-size:14px; border-bottom:1px solid #dadada; padding:8px 10px; color:#808080; text-transform:uppercase; font-weight:700; margin-bottom:6px;}
+.footer li a { display:block; padding:2px 0 2px 10px;}
 .footer .phone, .footer .fax, .footer .email, .footer .chat { padding:7px 0 8px 34px; }
 .footer .phone { background: url(../images/footer_ico.png) 0 4px no-repeat; font-size:11px; font-weight:bold; color:#9f6b57; }
 .footer .fax { background: url(../images/footer_ico.png) 0 -28px no-repeat; font-size:11px; font-weight:bold; color:#9f6b57; }
@@ -1213,7 +1213,7 @@ button.btn-continue span span, button.btn-update span span { }
 .block-subscribe .validation-advice { float:left; }
 .block-subscribe { padding:0px; height:29px; }
 .f-updates { margin:0 auto; }
-.f-updates .block1 { border-right:1px solid #DADADA; padding:0 0 34px; }
+.f-updates .block1 { border-right:0px solid #DADADA; padding:0 0 34px; }
 .f-updates .block1 h3 { font-size:14px; text-transform:uppercase; font-weight:700; padding-top:16px; padding-bottom:8px; color:#808080; }
 .f-updates p.payment { background:url(../images/payment-options.png) 0 0 no-repeat; padding:14px 0 0; }
 .f-updates .twitter-icon { background:url(../images/sprites.png) -39px -221px no-repeat; padding-left:28px; }
@@ -1277,6 +1277,7 @@ button.btn-continue span span, button.btn-update span span { }
 .offset3 { margin-left: 260px; }
 .offset2 { margin-left: 180px; }
 .offset1 { margin-left: 100px; }
+
 /*Navbar*/
 
 #menu { background: #58585a; }
