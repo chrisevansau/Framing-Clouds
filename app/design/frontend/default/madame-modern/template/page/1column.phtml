@@ -47,6 +47,9 @@
                 <div class="col-main">
                     <?php echo $this->getChildHtml('global_messages') ?>
                     <?php echo $this->getChildHtml('content') ?>
+
+                    <div class="paymentInfo"><?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('paymentInfo')->toHtml(); ?></div>
+                    <div class="socialInfo"><?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('socialInfo')->toHtml(); ?></div>
                 </div>
             </div>
         </div>
