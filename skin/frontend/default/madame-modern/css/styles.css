@@ -541,7 +541,7 @@ h1, h2, .page-title h2, .top .welcome-msg, .product_info strong, .product_info .
 .block-cart .subtotal { }
 .block-cart .actions .paypal-logo { float:left; width:100%; margin:3px 0 0; text-align:right; }
 .block-cart .actions .paypal-logo .paypal-or { clear:both; display:block; padding:0 55px 5px 0; }
-.block-cart .block-title { background:#9f6b57; border-bottom:4px solid #df0049; color:#FFF;}
+.block-cart .block-title { background:#9f6b57; border-bottom:4px solid #9F6B57; color:#FFF;}
 .block-cart .product-name a { font-size:12px; }
 .block-cart .block-content a { font-weight:normal; }
 .block-cart .actions { margin:6px 0 12px; text-align:left; }
@@ -1306,8 +1306,9 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
 .topNavPadding{margin-top: 15px;}
 .topoptions{background: url(../images/topoptions.png); width: 330px;height: 73px; float: left;}
 
-.paymentInfo, .socialInfo{width: 580px;float: left; margin-top: 20px; margin-right: 10px;}
+.paymentInfo, .socialInfo{width: 580px;float: left; margin-top: 80px; margin-right: 10px; margin-bottom: 40px;}
 .paymentInfo h1, .socialInfo h1{
+	font-family: 'Oswald';
     color: #9F6B57;
     margin-bottom: 10px;
     font-size: 30px;
