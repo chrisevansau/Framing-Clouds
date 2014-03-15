@@ -34,7 +34,7 @@
       <div class="span8">
 
       	<a class="topNav topNavPadding" href="#">What is cloud farming?</a>
-      	<a class="topNav" href="#">Discover<br/>
+      	<a class="topNav" id="discover" href="#">Discover<br/>
 <span class="small"> Animal available</span></span></a>
       	<a class="topNav" href="#">I’m a farmer <br/>
 <span class="small">and I want to raise animal </span> </a>
@@ -42,6 +42,32 @@
 	  <div class="topoptions"><?php echo $this->getChildHtml('topLinks') ?></div>
       
       <?php /*?><p class="welcome-msg"><?php echo $this->getWelcome() ?><?php echo $this->getAdditionalHtml() ?></p><?php */?>
+    
+    <script type="text/javascript">
+     jQuery( document ).ready(function() {
+        console.log( "ready!" );
+
+        jQuery("#discover").mouseover(function() {
+             
+              jQuery("#dropdown").fadeIn();       
+       });
+
+      jQuery("#dropdown ul li").mouseout(function() {
+             
+              jQuery("#dropdown").fadeOut();       
+       });
+
+});
+    </script>
+
+    <div class="dropdown" id="dropdown">
+      <ul>
+      <li><a href="#">Cattle</a></li>
+      <li><a href="#">Sheep</a></li>
+      <li><a href="#">Pigs</a></li>
+    </ul>
     </div>
+</div>
     </div>
+
   </div>

@@ -1318,3 +1318,28 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
     text-transform: uppercase;
 
 }
+
+
+/*    Dropdown Menu    */
+
+.dropdown{
+
+	display: none;
+	width: 200px;padding: 10px; background-color: #EBEAE2; margin-top: 54px; z-index: 99; position: absolute; margin-left: 232px;
+	  -moz-box-shadow:    0px 2px 2px 2px #ccc;
+      -webkit-box-shadow: 0px 2px 2px 2px #ccc;
+      box-shadow:         0px 2px 2px 2px #ccc;
+
+      -moz-border-bottom-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+
+      -moz-border-bottom-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+}
+
+.dropdown ul li{border-bottom: 2px solid #7E7E7E; padding-top: 5px; padding-bottom: 5px;}
+
+.show{display: block !important;}
+
+.nav-container { display: none !important;}
+
