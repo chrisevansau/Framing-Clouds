@@ -1337,7 +1337,7 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
       border-bottom-left-radius: 15px;
 }
 
-.dropdown ul li{border-bottom: 2px solid #7E7E7E; padding-top: 5px; padding-bottom: 5px;}
+.dropdown ul li{border-bottom: 2px solid #7E7E7E; padding-top: 5px; padding-bottom: 5px; text-transform: uppercase;}
 
 .show{display: block !important;}
 
