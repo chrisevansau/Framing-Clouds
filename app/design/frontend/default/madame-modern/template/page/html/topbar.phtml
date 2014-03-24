@@ -39,7 +39,13 @@
       	<a class="topNav" href="#">I’m a farmer <br/>
 <span class="small">and I want to raise animal </span> </a>
 	  <div class="lan-cur"><?php echo $this->getChildHtml('store_language') ?><?php echo $this->getChildHtml('store_currency_selector') ?></div></div>
-	  <div class="topoptions"><?php echo $this->getChildHtml('topLinks') ?></div>
+	  <div class="topoptions"><?php $this->getChildHtml('topLinks') ?>
+        <ul>
+          <li><a href="/customer/account/">My Account</a></li>
+          <li><a href="/help">Help</a></li>
+          <li><?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?><a href="/customer/account/login/">Login</a><?php else: ?><a href="/customer/account/logout/">Logout</a><?php endif ?></li>
+
+    </div>
       
       <?php /*?><p class="welcome-msg"><?php echo $this->getWelcome() ?><?php echo $this->getAdditionalHtml() ?></p><?php */?>
     

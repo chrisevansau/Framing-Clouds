@@ -1304,7 +1304,7 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
 .topNav{color: #EBEAE2; font-size: 14px; width: 230px; margin-top: 10px; display:block; float: left; text-transform: uppercase; line-height: 1;}
 .topNav .small{font-size: 11px;}
 .topNavPadding{margin-top: 15px;}
-.topoptions{background: url(../images/topoptions.png); width: 330px;height: 73px; float: left;}
+.topoptions{background: url(../images/topoptions.png); width: 245px;height: 33px; float: left;}
 
 .paymentInfo, .socialInfo{width: 580px;float: left; margin-top: 80px; margin-right: 10px; margin-bottom: 40px;}
 .paymentInfo h1, .socialInfo h1{
@@ -1342,4 +1342,22 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
 .show{display: block !important;}
 
 .nav-container { display: none !important;}
+.topoptions{
+
+	padding: 20px;
+	padding-left: 65px;
+	padding-top: 18px;
+}
+.topoptions li{
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.topoptions li a{
+	
+	color: #ebeae2;
+	text-transform:  uppercase !important;
+	font-size: 13px;
+}
 
