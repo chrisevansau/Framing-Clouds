@@ -55,7 +55,7 @@
 
         jQuery("#discover").mouseover(function() {
              
-              jQuery("#dropdown").fadeIn();       
+              jQuery("#dropdown").fadeIn(0);       
        });
 
         jQuery("#dropdown ul li").mouseover(function() {
@@ -65,7 +65,7 @@
 
       jQuery("#dropdown ul li").mouseout(function() {
              
-              jQuery("#dropdown").fadeOut();       
+              jQuery("#dropdown").fadeOut(0);       
        });
 
 });
@@ -73,9 +73,9 @@
 
     <div class="dropdown" id="dropdown">
       <ul>
-      <li><a href="#">Cattle</a></li>
-      <li><a href="#">Sheep</a></li>
-      <li><a href="#">Pigs</a></li>
+      <li><a href="/animals/cattle-2.html">Cattle</a></li>
+      <li><a href="/animals/sheep.html">Sheep</a></li>
+      <li><a href="/animals/pigs.html">Pigs</a></li>
     </ul>
     </div>
 </div>
