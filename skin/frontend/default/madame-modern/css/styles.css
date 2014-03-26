@@ -1361,3 +1361,71 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
 	font-size: 13px;
 }
 
+
+/* Media */
+
+@media (max-width: 768px) {
+	.topNav {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.shopLinks{
+		background-image: none;
+		background-color: #7e7e7e;
+		height: 100%;
+	}
+
+	.topoptions{
+		background-color: #7e7e7e;
+		background-image: none;
+		padding-left: 20px;
+		width: 90%;
+
+	}
+
+	.topoptions ul{
+		position:relative;
+    left:35%;
+	}
+
+	.span8{
+		width: 100% !important;
+	}
+
+}
+
+@media (max-width: 1200px) {
+	.topNav {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.shopLinks{
+		background-image: none;
+		background-color: #7e7e7e;
+		height: 100%;
+	}
+
+	.topoptions{
+		background-color: #7e7e7e;
+		background-image: none;
+		padding-left: 20px;
+		width: 90%;
+
+	}
+
+	.topoptions ul{
+		position:relative;
+    left:35%;
+	}
+
+	.span8{
+		width: 100% !important;
+	}
+
+}
+
+
