@@ -202,7 +202,7 @@ p.control input.checkbox, p.control input.radio { margin-right:6px; }
 .buttons-set p.required { margin:0 0 5px; }
 .buttons-set-order { }
 .fieldset { border:1px solid #414141; padding:22px 15px 12px; margin:28px 0; }
-.fieldset .legend { float:left; font-weight:bold; font-size:13px; border:1px solid #414141; background:#727272; color:#ffff; margin:-33px 0 0 -10px; padding:2px 8px 4px; position:relative; }
+.fieldset .legend { float:left; font-weight:bold; font-size:13px; border:1px solid #414141; background:#727272; color:#ffffff!important; margin:-33px 0 0 -10px; padding:2px 8px 4px; position:relative; }
 /* Form Validation */
 .validation-advice { clear:both; min-height:13px; margin:3px 0 0; padding-left:17px; font-size:10px; line-height:13px; background:url(../images/validation_advice_bg.gif) 2px 1px no-repeat; color:#f00; }
 .validation-failed { border:1px dashed #f00 !important; background:#faebe7 !important; }
@@ -224,7 +224,7 @@ p.required { font-size:10px; text-align:right; color:#f00; }
 .success-msg { border-color:#446423; background-color:#eff5ea; background-image:url(../images/i_msg-success.gif); color:#3d6611; }
 .note-msg, .notice-msg { border-color:#fcd344; background-color:#fafaec; background-image:url(../images/i_msg-note.gif); color:#3d6611; }
 /* BreadCrumbs */
-.breadcrumbs { margin:16px 0 0 20px; }
+.breadcrumbs { margin:16px 0 0 0px; }
 .breadcrumbs li { display:inline; }
 .breadcrumbs li span { margin:0 3px; }
 /* Page Heading */
@@ -1367,9 +1367,12 @@ ul.topnav em { position:absolute; right:2px; top:0px; cursor:pointer; font-style
 	margin-bottom:10px;
 }
 
+h1{font-family: 'Oswald';color: #9F6B57 !important;}
+
 .accordion{margin-bottom:20px;}
 .accordion-group{margin-bottom:2px;border:1px solid #e5e5e5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
-.accordion-heading{border-bottom:0;}
+.accordion-heading{border-bottom:0; background: #7e7e7e;}
+.accordion-heading a{color: #ffffff;}
 .accordion-heading .accordion-toggle{display:block;padding:8px 15px;}
 .accordion-toggle{cursor:pointer;}
 .accordion-inner{padding:9px 15px;border-top:1px solid #e5e5e5;}
